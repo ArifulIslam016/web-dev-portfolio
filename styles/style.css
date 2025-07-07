@@ -13,7 +13,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 05px 80px 0px 230px;
+    margin: 05px 80px 0px 226px;
 }
 
 
@@ -27,6 +27,13 @@ nav ul{
 /* Should be shared */
 .primary-color{
     color: #FD6E0A;
+}
+.secondary-bg{
+    background-color:#FFF8F3 ;
+}
+.dark-3{
+    color:#757575 ;
+    font-size: 18px;
 }
 /* Shared button  */
 .btn-primary{
@@ -42,6 +49,7 @@ nav ul{
 }
 .dark-2{
     color: #474747;
+    font-size: 20px;
 }
 nav ul li {
     list-style: none;
@@ -70,8 +78,8 @@ nav a {
     }
 /* Picture of man */
 #ariful-pic{
-    height: 676px;
-    width: 584px;
+    height: 676;
+    width: 584;
 }
 /* header image */
 .header-image{
@@ -79,3 +87,38 @@ nav a {
     background-repeat: no-repeat;
     background-position: top left, bottom right ;
 }
+.main{ margin-top: 130;
+    max-width: 1140;
+   
+   margin: 0 auto;
+}
+
+
+.about{
+
+   
+  border-radius: 10px;
+  margin: 130px;
+  text-align: center;
+  padding:131px 156px  ;
+
+} 
+.primary-title{
+    font-weight: bold;
+    font-size: 35px;
+}
+/* item fo about section */
+.about-items{
+    display: flex;  
+    justify-content: space-around; 
+}
+.about-description{
+    font-size: 18px;    
+}
+.title-description{
+    font-weight: 600;
+}
+
+
+
+
