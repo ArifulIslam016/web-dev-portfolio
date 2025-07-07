@@ -1,0 +1,81 @@
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+   
+      "width" 100;
+  }
+  .nav-font{
+    font-weight: 800;
+    font-size:45px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 05px 80px 0px 230px;
+}
+
+
+.nav-style  {
+    display: flex;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+/* Should be shared */
+.primary-color{
+    color: #FD6E0A;
+}
+/* Shared button  */
+.btn-primary{
+    color:white;
+    font-size: 20px;
+    background-color: #FD6E0A;
+   border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    width: 150px;
+    height: 64px;
+   
+}
+.dark-2{
+    color: #474747;
+}
+nav ul li {
+    list-style: none;
+    margin-right: 48px;
+}
+nav a {
+    text-decoration: none;
+}
+/* Baner section */
+.baner-container{
+    display: flex;
+    justify-content: space-between;  
+    margin:0 5px 0 226px; 
+    padding: 0%;
+}
+.baner h4 { font-size: 45px;
+    font-weight: 700;
+    }
+    .baner h1{
+        font-size: 85px;
+        font-weight: bold;
+    }
+    .baner p{
+        font-size: 18px;
+        font-weight: regular ;
+    }
+/* Picture of man */
+#ariful-pic{
+    height: 676px;
+    width: 584px;
+}
+/* header image */
+.header-image{
+    background-image: url('../images/developer.png'),url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right ;
+}
