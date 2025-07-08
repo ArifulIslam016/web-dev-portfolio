@@ -1,9 +1,5 @@
-.open-sans-normal {
+* {
   font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-
-  width: 100%;
 }
 .nav-font {
   font-weight: 800;
@@ -47,7 +43,20 @@ nav ul {
   font-weight: bold;
   width: 150px;
   height: 64px;
+  margin-right: 20px;
 }
+.btn-primary-2{ color: white;
+    font-size: 20px;
+    background-color: #fd6e0a;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    width: px;
+    height: 64px;
+    margin-right: 20px;
+
+}
+
 .dark-2 {
   color: #474747;
   font-size: 20px;
@@ -80,8 +89,8 @@ nav a {
 }
 /* Picture of man */
 #ariful-pic {
-  height: 676;
-  width: 584;
+  height: 676px;
+  width: 584px;
 }
 /* header image */
 .header-image {
@@ -133,7 +142,9 @@ nav a {
   color: #757575;
   font-size: 18px;
   box-shadow: 0px 6px 50px 0px rgba(80, 78, 78, 0.205);
+  
 }
+
 .tech-gap {
   padding: 50px 33px 30px 30px;
 }
@@ -213,11 +224,10 @@ form input {
 form textarea {
   border: none;
   font-size: 16px;
-  width:100%;
+  width: 100%;
   height: 222px;
 }
 .fbutton {
   border: none;
   box-shadow: none;
-
 }
