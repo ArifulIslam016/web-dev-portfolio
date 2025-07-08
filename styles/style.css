@@ -1,124 +1,223 @@
 .open-sans-normal {
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-   
-      "width" 100;
-  }
-  .nav-font{
-    font-weight: 800;
-    font-size:45px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+  width: 100%;
 }
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 05px 80px 0px 226px;
+.nav-font {
+  font-weight: 800;
+  font-size: 45px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 05px 80px 0px 226px;
 }
 
-
-.nav-style  {
-    display: flex;
+.nav-style {
+  display: flex;
 }
-nav ul{
-    display: flex;
-    align-items: center;
+nav ul {
+  display: flex;
+  align-items: center;
 }
 /* Should be shared */
-.primary-color{
-    color: #FD6E0A;
+.primary-color {
+  color: #fd6e0a;
 }
-.secondary-bg{
-    background-color:#FFF8F3 ;
+.secondary-bg {
+  background-color: #fff8f3;
 }
-.dark-3{
-    color:#757575 ;
-    font-size: 18px;
+.dark-3 {
+  color: #757575;
+  font-size: 18px;
+}
+.text-center {
+  text-align: center;
 }
 /* Shared button  */
-.btn-primary{
-    color:white;
-    font-size: 20px;
-    background-color: #FD6E0A;
-   border-radius: 5px;
-    border: none;
-    font-weight: bold;
-    width: 150px;
-    height: 64px;
-   
+.btn-primary {
+  color: white;
+  font-size: 20px;
+  background-color: #fd6e0a;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  width: 150px;
+  height: 64px;
 }
-.dark-2{
-    color: #474747;
-    font-size: 20px;
+.dark-2 {
+  color: #474747;
+  font-size: 20px;
 }
 nav ul li {
-    list-style: none;
-    margin-right: 48px;
+  list-style: none;
+  margin-right: 48px;
 }
 nav a {
-    text-decoration: none;
+  text-decoration: none;
 }
 /* Baner section */
-.baner-container{
-    display: flex;
-    justify-content: space-between;  
-    margin:0 5px 0 226px; 
-    padding: 0%;
+.baner-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 226px;
+  padding: 0%;
 }
-.baner h4 { font-size: 45px;
-    font-weight: 700;
-    }
-    .baner h1{
-        font-size: 85px;
-        font-weight: bold;
-    }
-    .baner p{
-        font-size: 18px;
-        font-weight: regular ;
-    }
+.baner h4 {
+  font-size: 45px;
+  font-weight: 700;
+}
+.baner h1 {
+  font-size: 85px;
+  font-weight: bold;
+}
+.baner p {
+  font-size: 18px;
+  font-weight: regular;
+}
 /* Picture of man */
-#ariful-pic{
-    height: 676;
-    width: 584;
+#ariful-pic {
+  height: 676;
+  width: 584;
 }
 /* header image */
-.header-image{
-    background-image: url('../images/developer.png'),url('../images/header_bg.png');
-    background-repeat: no-repeat;
-    background-position: top left, bottom right ;
+.header-image {
+  background-image: url("../images/developer.png"),
+    url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
 }
-.main{ margin-top: 130;
-    max-width: 1140;
-   
-   margin: 0 auto;
+.main {
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
-
-.about{
-
-   
+.about {
   border-radius: 10px;
   margin: 130px;
   text-align: center;
-  padding:131px 156px  ;
-
-} 
-.primary-title{
-    font-weight: bold;
-    font-size: 35px;
+  padding: 131px 156px;
+}
+.primary-title {
+  font-weight: bold;
+  font-size: 35px;
 }
 /* item fo about section */
-.about-items{
-    display: flex;  
-    justify-content: space-around; 
+.about-items {
+  display: flex;
+  justify-content: space-around;
 }
-.about-description{
-    font-size: 18px;    
+.about-description {
+  font-size: 18px;
 }
-.title-description{
-    font-weight: 600;
+.title-description {
+  font-weight: 600;
 }
 
+/* Technology section */
+.technologis {
+  display: flex;
+  gap: 5px;
+}
+.technology img {
+  margin-left: 15px;
 
+  border-radius: 10;
+  width: 50px;
+  height: 35px;
+}
+.technology-description {
+  color: #757575;
+  font-size: 18px;
+  box-shadow: 0px 6px 50px 0px rgba(80, 78, 78, 0.205);
+}
+.tech-gap {
+  padding: 50px 33px 30px 30px;
+}
+.resume-element {
+  display: flex;
+  margin: 24px;
+  gap: 24px;
+}
+.education h3 {
+  font-weight: bold;
+  color: #474747;
+}
+.experience h3 {
+  font-weight: bold;
+  color: #474747;
+}
+.education h4 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #757575;
+}
+.experience h4 {
+  font-weight: 600;
+  color: #757575;
+  font-size: 20px;
+}
+.education p {
+  color: #474747;
+  font-size: 16px;
+}
+.experience p {
+  color: #474747;
+  font-size: 16px;
+}
 
+.cv-btn {
+  text-align: center;
+}
+.coloums {
+  display: flex;
+  padding: 130px 230px 130px 230px;
+  background-color: #fff8f3;
+  margin-top: 113px;
+  gap: 117px;
+}
 
+footer input[type="text"] {
+  height: 64px;
+  width: 100%;
+  width: 100%;
+  margin-top: 16px;
+}
+
+footer input[type="email"] {
+  height: 64px;
+  width: 100%;
+  margin-top: 16px;
+}
+footer textarea {
+  height: 64px;
+  width: 100%;
+  margin-top: 16px;
+}
+form {
+  display: block;
+  border: none;
+  border-radius: 5px;
+
+  margin-top: 28px;
+}
+form input {
+  border: none;
+  background-color: white;
+  font-size: 16px;
+}
+
+form textarea {
+  border: none;
+  font-size: 16px;
+  width:100%;
+  height: 222px;
+}
+.fbutton {
+  border: none;
+  box-shadow: none;
+
+}
